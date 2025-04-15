@@ -2,168 +2,240 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portofolio - Bagus Irawan</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="css/aos.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 
-<body class="bg-white text-gray-800">
+<body class="bg-white text-gray-900">
   <!-- Nama Developer -->
-  <section class="max-w-7xl mx-auto px-4 py-10 text-center" data-aos="zoom-out">
-    <div>
+  <section class="container mx-auto text-center py-12" data-aos="zoom-out">
+    <div class="p-6">
       <h5 class="text-lg mb-3">Hallo 👋, Perkenalkan Saya</h5>
       <h1 class="text-4xl font-bold mb-3">Bagus Irawan</h1>
-      <h6 class="text-md mb-5">Saya Adalah Seorang Web Programmer</h6>
-      <button class="px-5 py-2 bg-blue-600 text-white font-bold rounded hover:bg-blue-700 transition">Hubungi Saya</button>
+      <h6 class="text-md mb-3">Saya Adalah Seorang Web Programmer</h6>
+      <button class="bg-blue-600 text-white px-6 py-2 rounded font-semibold hover:bg-blue-700 transition">Hubungi Saya</button>
     </div>
   </section>
 
   <!-- Bagian Isi Portofolio -->
-  <section class="max-w-7xl mx-auto px-4 py-10">
-    <div class="text-center mb-10">
-      <h1 class="text-3xl font-bold mb-2">My Project</h1>
+  <section class="container mx-auto px-4">
+    <div class="mb-8 text-center">
+      <h1 class="text-3xl font-bold">My Project</h1>
       <p class="text-gray-600">A collection of my latest projects, reflecting my dedication and craftsmanship in the world of coding.</p>
     </div>
 
-    <!-- Project Items -->
-    <div class="space-y-12">
-      <!-- Project #1 -->
-      <div class="flex flex-col md:flex-row gap-6 items-start md:items-start" data-aos="fade-left">
-        <div class="md:w-1/3 w-full">
-          <img src="img/portofolio2.webp" alt="Project 1" class="rounded-lg shadow-md w-full object-cover">
+    <!-- Portofolio Items -->
+    <div class="space-y-10">
+      <!-- Repeat for each project -->
+      <div data-aos="fade-left" class="flex flex-col lg:flex-row items-center gap-6">
+        <div class="w-full lg:w-1/3">
+          <img src="img/portofolio2.webp" class="rounded-lg shadow-md w-full" />
         </div>
-        <div class="md:w-2/3 w-full">
-          <h2 class="text-2xl font-semibold mb-2">Project #1</h2>
-          <p class="mb-3 text-gray-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
-          <div class="flex flex-wrap gap-2 mb-3">
+        <div class="w-full lg:w-2/3">
+          <h2 class="text-2xl font-bold mb-2">Project #1</h2>
+          <p class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+          <div class="flex gap-2 flex-wrap mb-4">
             <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">HTML</span>
             <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">CSS</span>
             <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">JS</span>
           </div>
-          <a href="#" class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded">Preview</a>
+          <a href="#" class="inline-block bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700 transition">Preview</a>
+        </div>
+      </div>
+      <!-- Duplicate above block and change content for Project #2, #3 -->
+       <!-- Repeat for each project -->
+      <div data-aos="fade-left" class="flex flex-col lg:flex-row items-center gap-6">
+        <div class="w-full lg:w-1/3">
+          <img src="img/portofolio2.webp" class="rounded-lg shadow-md w-full" />
+        </div>
+        <div class="w-full lg:w-2/3">
+          <h2 class="text-2xl font-bold mb-2">Project #1</h2>
+          <p class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+          <div class="flex gap-2 flex-wrap mb-4">
+            <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">HTML</span>
+            <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">CSS</span>
+            <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">JS</span>
+          </div>
+          <a href="#" class="inline-block bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700 transition">Preview</a>
+        </div>
+      </div>
+      <!-- Repeat for each project -->
+      <div data-aos="fade-left" class="flex flex-col lg:flex-row items-center gap-6">
+        <div class="w-full lg:w-1/3">
+          <img src="img/portofolio2.webp" class="rounded-lg shadow-md w-full" />
+        </div>
+        <div class="w-full lg:w-2/3">
+          <h2 class="text-2xl font-bold mb-2">Project #1</h2>
+          <p class="mb-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+          <div class="flex gap-2 flex-wrap mb-4">
+            <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">HTML</span>
+            <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">CSS</span>
+            <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">JS</span>
+          </div>
+          <a href="#" class="inline-block bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700 transition">Preview</a>
         </div>
       </div>
 
-      <!-- Project #2 -->
-      <div class="flex flex-col md:flex-row gap-6 items-start md:items-start" data-aos="fade-left">
-        <div class="md:w-1/3 w-full">
-          <img src="img/gambar_potofolio.webp" alt="Project 2" class="rounded-lg shadow-md w-full object-cover">
-        </div>
-        <div class="md:w-2/3 w-full">
-          <h2 class="text-2xl font-semibold mb-2">Project #2</h2>
-          <p class="mb-3 text-gray-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
-          <div class="flex flex-wrap gap-2 mb-3">
-            <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">HTML</span>
-            <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">CSS</span>
-            <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">JS</span>
-          </div>
-          <a href="#" class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded">Preview</a>
-        </div>
-      </div>
 
-      <!-- Project #3 -->
-      <div class="flex flex-col md:flex-row gap-6 items-start md:items-start" data-aos="fade-left">
-        <div class="md:w-1/3 w-full">
-          <img src="img/images.jpeg" alt="Project 3" class="rounded-lg shadow-md w-full object-cover">
-        </div>
-        <div class="md:w-2/3 w-full">
-          <h2 class="text-2xl font-semibold mb-2">Project #3</h2>
-          <p class="mb-3 text-gray-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
-          <div class="flex flex-wrap gap-2 mb-3">
-            <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">HTML</span>
-            <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">CSS</span>
-            <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">JS</span>
-          </div>
-          <a href="#" class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded">Preview</a>
-        </div>
-      </div>
+
+
     </div>
   </section>
 
-  <!-- Skills Section -->
-  <section class="max-w-7xl mx-auto px-4 py-10">
+  <!-- Bagian Skillset -->
+  <section class="container mx-auto my-16 px-4">
     <div class="text-center mb-10">
-      <h1 class="text-3xl font-bold mb-2">Skillset</h1>
+      <h1 class="text-3xl font-bold">Skillset</h1>
       <p class="text-gray-600">Here are some of the skills I possess:</p>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <div class="border rounded-lg p-6">
-        <h2 class="font-bold text-lg mb-2">Front-End</h2>
-        <p class="text-sm text-gray-700 mb-3">I have created a visually appealing website that emphasizes beauty with a modern website design.</p>
-        <div class="flex flex-wrap gap-2">
-          <img src="img/icons/html.svg" class="h-6" alt="HTML">
-          <img src="img/icons/css.svg" class="h-6" alt="CSS">
-          <img src="img/icons/js.svg" class="h-6" alt="JS">
-          <img src="img/icons/bootstrap.svg" class="h-6" alt="Bootstrap">
-          <img src="img/icons/tailwind.svg" class="h-6" alt="Tailwind">
-          <img src="img/icons/ts.svg" class="h-6" alt="TS">
-          <img src="img/icons/react.svg" class="h-6" alt="React">
-          <img src="img/icons/astro.svg" class="h-6" alt="Astro">
-          <img src="img/icons/vue.svg" class="h-6" alt="Vue">
-          <img src="img/icons/redux.svg" class="h-6" alt="Redux">
-          <img src="img/icons/vite.svg" class="h-6" alt="Vite">
+    <div class="grid gap-6 md:grid-cols-3">
+      <!-- Skill Card -->
+      <div data-aos="flip-right" class="p-6 border rounded shadow-sm">
+        <h2 class="text-xl font-semibold mb-2">Front-End</h2>
+        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="flex gap-2 flex-wrap">
+          <img src="img/html.png" class="w-12" />
+          <img src="img/css.png" class="w-12" />
+          <img src="img/js.png" class="w-12" />
+          <img src="img/bt.png" class="w-12" />
         </div>
       </div>
-      <div class="border rounded-lg p-6">
-        <h2 class="font-bold text-lg mb-2">Back-End</h2>
-        <p class="text-sm text-gray-700 mb-3">I have developed a REST API with a strong focus on security through authentication and authorization mechanisms.</p>
-        <div class="flex flex-wrap gap-2">
-          <img src="img/icons/php.svg" class="h-6" alt="PHP">
-          <img src="img/icons/laravel.svg" class="h-6" alt="Laravel">
-          <img src="img/icons/node.svg" class="h-6" alt="Node">
-          <img src="img/icons/express.svg" class="h-6" alt="Express">
+      <!-- Repeat for Back-End & Database and Other -->
+      <div data-aos="flip-right" class="p-6 border rounded shadow-sm">
+        <h2 class="text-xl font-semibold mb-2">Back-End</h2>
+        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="flex gap-2 flex-wrap">
+          <img src="img/php.png" class="w-12" />
+          <img src="img/python.png" class="w-12" />
+          
         </div>
       </div>
-      <div class="border rounded-lg p-6">
-        <h2 class="font-bold text-lg mb-2">Database and Other</h2>
-        <p class="text-sm text-gray-700 mb-3">I am creating a website using several databases and other technologies.</p>
-        <div class="flex flex-wrap gap-2">
-          <img src="img/icons/mysql.svg" class="h-6" alt="MySQL">
-          <img src="img/icons/figma.svg" class="h-6" alt="Figma">
-          <img src="img/icons/jira.svg" class="h-6" alt="Jira">
-          <img src="img/icons/gitlab.svg" class="h-6" alt="GitLab">
-          <img src="img/icons/vscode.svg" class="h-6" alt="VSCode">
+
+      <!-- Repeat for Back-End & Database and Other -->
+      <div data-aos="flip-right" class="p-6 border rounded shadow-sm">
+        <h2 class="text-xl font-semibold mb-2">Database and Other</h2>
+        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="flex gap-2 flex-wrap">
+          <img src="img/mysql.png" class="w-12" />
+          <img src="img/postman.png" class="w-12" />
+          <img src="img/json.png" class="w-12" />
+          <img src="img/vscode.png" class="w-12" />
+          <img src="img/photoshop.png" class="w-12" />
+          <img src="img/github.png" class="w-12" />
+          <img src="img/cordova.png" class="w-12" />
+
         </div>
       </div>
+
+
     </div>
   </section>
 
-  <!-- Sertifikat Section -->
-  <section class="max-w-7xl mx-auto px-4 py-10">
+  <!-- Work Experience -->
+  <section class="container mx-auto px-4">
     <div class="text-center mb-10">
-      <h1 class="text-3xl font-bold mb-2">Sertifikat</h1>
-      <p class="text-gray-600">Beberapa sertifikat yang pernah saya raih.</p>
+      <h1 class="text-3xl font-bold">Work Experience</h1>
+      <p class="text-gray-600">A summary of my professional experience over the past years.</p>
     </div>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-      <div class="border rounded-lg p-4 shadow">
-        <h2 class="font-semibold mb-2">Sertifikat 1</h2>
-        <p class="text-sm text-gray-600">Deskripsi singkat sertifikat 1</p>
+    <!-- Experience Block -->
+    <div class="space-y-10">
+      <div data-aos="fade-left" class="flex flex-col md:flex-row gap-4 border-l-4 border-blue-600 pl-4">
+        <div class="md:w-1/3">
+          <i class="bi bi-archive-fill text-blue-600 text-3xl"></i>
+          <h3 class="text-xl font-bold">Frontend Developer</h3>
+          <p>Lorem ipsum dolor sit amet consectetur...</p>
+        </div>
+        <div class="md:w-2/3">
+          <h2 class="text-blue-600 font-bold text-xl">PT. Juke Solusi Teknologi</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+        </div>
       </div>
-      <div class="border rounded-lg p-4 shadow">
-        <h2 class="font-semibold mb-2">Sertifikat 2</h2>
-        <p class="text-sm text-gray-600">Deskripsi singkat sertifikat 2</p>
+      <!-- Repeat for other experiences -->
+      <div class="space-y-10">
+      <div data-aos="fade-left" class="flex flex-col md:flex-row gap-4 border-l-4 border-blue-600 pl-4">
+        <div class="md:w-1/3">
+          <i class="bi bi-archive-fill text-blue-600 text-3xl"></i>
+          <h3 class="text-xl font-bold">Frontend Developer</h3>
+          <p>Lorem ipsum dolor sit amet consectetur...</p>
+        </div>
+        <div class="md:w-2/3">
+          <h2 class="text-blue-600 font-bold text-xl">PT. Juke Solusi Teknologi</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+        </div>
       </div>
-      <div class="border rounded-lg p-4 shadow">
-        <h2 class="font-semibold mb-2">Sertifikat 3</h2>
-        <p class="text-sm text-gray-600">Deskripsi singkat sertifikat 3</p>
+      <!-- Repeat for other experiences -->
+      <div class="space-y-10">
+      <div data-aos="fade-left" class="flex flex-col md:flex-row gap-4 border-l-4 border-blue-600 pl-4">
+        <div class="md:w-1/3">
+          <i class="bi bi-archive-fill text-blue-600 text-3xl"></i>
+          <h3 class="text-xl font-bold">Frontend Developer</h3>
+          <p>Lorem ipsum dolor sit amet consectetur...</p>
+        </div>
+        <div class="md:w-2/3">
+          <h2 class="text-blue-600 font-bold text-xl">PT. Juke Solusi Teknologi</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+        </div>
       </div>
+
+    </div>
+  </section>
+
+  <!-- Certificates -->
+  <section class="container mx-auto px-4 my-16">
+    <div class="text-center mb-10">
+      <h1 class="text-3xl font-bold">Certificates</h1>
+      <p class="text-gray-600">Here are some certifications I have acquired:</p>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      <!-- Certificate Card -->
+      <div data-aos="fade-up" class="border rounded p-3 shadow">
+        <img src="img/portofolio2.webp" class="w-full mb-3 rounded" />
+        <h5 class="text-center font-semibold">Frontend Development Training Using Nuxt JS</h5>
+        <p class="text-center text-sm text-gray-500">Juke Solutions June 2023</p>
+      </div>
+      <!-- Duplicate for other certificates -->
+      <div data-aos="fade-up" class="border rounded p-3 shadow">
+        <img src="img/portofolio2.webp" class="w-full mb-3 rounded" />
+        <h5 class="text-center font-semibold">Frontend Development Training Using Nuxt JS</h5>
+        <p class="text-center text-sm text-gray-500">Juke Solutions June 2023</p>
+      </div>
+      <!-- Duplicate for other certificates -->
+      <div data-aos="fade-up" class="border rounded p-3 shadow">
+        <img src="img/portofolio2.webp" class="w-full mb-3 rounded" />
+        <h5 class="text-center font-semibold">Frontend Development Training Using Nuxt JS</h5>
+        <p class="text-center text-sm text-gray-500">Juke Solutions June 2023</p>
+      </div>
+
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-gray-100 text-center py-6 mt-10">
-    <p class="text-sm text-gray-600">&copy; 2025 Bagus Irawan. All rights reserved.</p>
+  <footer class="bg-gray-900 text-white py-10">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row md:justify-between gap-6">
+        <div class="md:w-2/3">
+          <h3 class="text-xl font-bold mb-3">About Me</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
+        </div>
+        <div class="flex space-x-6 text-2xl justify-center md:justify-start">
+          <a href="#" class="text-blue-600"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-green-600"><i class="bi bi-whatsapp"></i></a>
+          <a href="#" class="text-pink-500"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+      <div class="text-center text-gray-500 mt-6 border-t pt-4">
+        <p>@ 2025 Bagus Irawan</p>
+      </div>
+    </div>
   </footer>
 
-  <script src="js/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script>
-    AOS.init({
-      once: true,
-      duration: 800
-    });
+    AOS.init({ once: true, duration: 800 });
   </script>
 </body>
 
