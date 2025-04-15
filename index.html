@@ -2,145 +2,92 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio - Bagus Irawan</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="css/aos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio - Bagus Irawan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 
-<body class="bg-white text-gray-900">
-    <!-- Nama Developer -->
-    <section class="container mx-auto text-center py-20" data-aos="zoom-out">
-        <div class="p-5 m-5">
-            <h5 class="text-lg mb-3">Hallo 👋, Perkenalkan Saya</h5>
-            <h1 class="text-5xl font-bold mb-3">Bagus Irawan</h1>
-            <h6 class="text-lg mb-3">Saya Adalah Seorang Web Programmer</h6>
-            <button class="mt-3 px-6 py-2 bg-blue-600 text-white font-bold rounded hover:bg-blue-700">Hubungi Saya</button>
-        </div>
-    </section>
+<body class="bg-white text-gray-800">
+  <!-- Nama Developer -->
+  <section class="max-w-7xl mx-auto px-4 py-10 text-center" data-aos="zoom-out">
+    <div>
+      <h5 class="text-lg mb-3">Hallo 👋, Perkenalkan Saya</h5>
+      <h1 class="text-4xl font-bold mb-3">Bagus Irawan</h1>
+      <h6 class="text-md mb-5">Saya Adalah Seorang Web Programmer</h6>
+      <button class="px-5 py-2 bg-blue-600 text-white font-bold rounded hover:bg-blue-700 transition">Hubungi Saya</button>
+    </div>
+  </section>
 
-    <!-- Bagian Isi Portofolio -->
-    <section class="container mx-auto px-4">
-        <div class="mb-10">
-            <h1 class="text-3xl font-bold">My Project</h1>
-            <p class="text-gray-700">A collection of my latest projects, reflecting my dedication and craftsmanship in the world of coding.</p>
-        </div>
+  <!-- Bagian Isi Portofolio -->
+  <section class="max-w-7xl mx-auto px-4 py-10">
+    <div class="text-center mb-10">
+      <h1 class="text-3xl font-bold mb-2">My Project</h1>
+      <p class="text-gray-600">A collection of my latest projects, reflecting my dedication and craftsmanship in the world of coding.</p>
+    </div>
 
-        <!-- Portofolio Items -->
-        <div class="space-y-12">
-            <!-- Reusable Project Card Start -->
-            <div data-aos="fade-left" class="flex flex-col md:flex-row items-center gap-6">
-                <img src="img/portofolio2.webp" class="w-40 h-auto rounded-lg shadow" alt="Project Image">
-                <div class="flex-1">
-                    <h2 class="text-2xl font-bold">Project #1</h2>
-                    <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <div class="space-x-2 mt-2">
-                        <span class="bg-gray-200 text-gray-800 px-3 py-1 rounded-full text-sm">HTML</span>
-                        <span class="bg-gray-200 text-gray-800 px-3 py-1 rounded-full text-sm">CSS</span>
-                        <span class="bg-gray-200 text-gray-800 px-3 py-1 rounded-full text-sm">JS</span>
-                    </div>
-                    <div class="mt-4">
-                        <a href="#" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Preview</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Reusable Project Card End -->
+    <!-- Project Item -->
+    <div class="flex flex-col md:flex-row gap-6 mb-12 items-start" data-aos="fade-left">
+      <div class="md:w-1/3 w-full">
+        <img src="img/portofolio2.webp" alt="Project 1" class="rounded-lg shadow-md w-full object-cover">
+      </div>
+      <div class="md:w-2/3 w-full">
+        <h2 class="text-2xl font-semibold mb-2">Project #1</h2>
+        <p class="mb-3 text-gray-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+        <div class="flex flex-wrap gap-2 mb-3">
+          <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">HTML</span>
+          <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">CSS</span>
+          <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">JS</span>
+        </div>
+        <a href="#" class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded">Preview</a>
+      </div>
+    </div>
 
-            <!-- Repeat the above project card with other content (Project #2, #3, etc.) -->
+    <!-- Duplicate project item (Project #2 & #3) -->
+    <!-- Project #2 -->
+    <div class="flex flex-col md:flex-row gap-6 mb-12 items-start" data-aos="fade-left">
+      <div class="md:w-1/3 w-full">
+        <img src="img/gambar_potofolio.webp" alt="Project 2" class="rounded-lg shadow-md w-full object-cover">
+      </div>
+      <div class="md:w-2/3 w-full">
+        <h2 class="text-2xl font-semibold mb-2">Project #2</h2>
+        <p class="mb-3 text-gray-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+        <div class="flex flex-wrap gap-2 mb-3">
+          <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">HTML</span>
+          <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">CSS</span>
+          <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">JS</span>
         </div>
-    </section>
+        <a href="#" class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded">Preview</a>
+      </div>
+    </div>
 
-    <!-- Bagian Kemampuan -->
-    <section class="container mx-auto my-20 px-4">
-        <div class="mb-10">
-            <h1 class="text-3xl font-bold">Skillset</h1>
-            <p class="text-gray-700">Here are some of the skills I possess:</p>
+    <!-- Project #3 -->
+    <div class="flex flex-col md:flex-row gap-6 mb-12 items-start" data-aos="fade-left">
+      <div class="md:w-1/3 w-full">
+        <img src="img/images.jpeg" alt="Project 3" class="rounded-lg shadow-md w-full object-cover">
+      </div>
+      <div class="md:w-2/3 w-full">
+        <h2 class="text-2xl font-semibold mb-2">Project #3</h2>
+        <p class="mb-3 text-gray-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+        <div class="flex flex-wrap gap-2 mb-3">
+          <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">HTML</span>
+          <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">CSS</span>
+          <span class="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">JS</span>
         </div>
-        <div class="flex flex-col md:flex-row gap-6">
-            <!-- Skill Card -->
-            <div data-aos="flip-right" class="flex-1 border-4 border-gray-200 rounded p-6">
-                <h2 class="text-2xl font-semibold mb-2">Front-End</h2>
-                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <div class="flex gap-3">
-                    <img src="img/html.png" class="w-12">
-                    <img src="img/css.png" class="w-12">
-                    <img src="img/js.png" class="w-12">
-                    <img src="img/bt.png" class="w-12">
-                </div>
-            </div>
-            <!-- Repeat for Back-End and Other -->
-        </div>
-    </section>
+        <a href="#" class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded">Preview</a>
+      </div>
+    </div>
+  </section>
 
-    <!-- Pengalaman Kerja -->
-    <section class="container mx-auto px-4">
-        <div class="mb-10">
-            <h1 class="text-3xl font-bold">Work Experience</h1>
-            <p>A summary of my professional experience over the past years.</p>
-        </div>
-
-        <div class="space-y-10">
-            <!-- Experience Item -->
-            <div data-aos="fade-left" class="md:flex gap-6 border-l-4 border-blue-600 pl-6">
-                <div class="md:w-1/3">
-                    <h2 class="text-2xl text-blue-600"><i class="bi bi-archive-fill"></i></h2>
-                    <h3 class="text-xl font-semibold">Frontend Developer</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="md:w-2/3">
-                    <h2 class="text-xl font-bold text-blue-600">PT. Juke Solusi Teknologi</h2>
-                    <p class="text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-            </div>
-            <!-- Repeat for other experience -->
-        </div>
-    </section>
-
-    <!-- Sertifikat -->
-    <section class="container mx-auto my-20 px-4">
-        <div class="mb-10">
-            <h1 class="text-3xl font-bold">Certificates</h1>
-            <p>Here are some certifications I have acquired :</p>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <!-- Sertifikat Card -->
-            <div data-aos="fade-up" class="border-4 rounded p-3">
-                <img src="img/portofolio2.webp" class="w-full h-auto rounded">
-                <h5 class="text-center font-semibold mt-2">Frontend Development Training Using Nuxt JS</h5>
-                <p class="text-center text-sm text-gray-500">Juke Solutions June 2023</p>
-            </div>
-            <!-- Repeat as needed -->
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-white p-10">
-        <div class="container mx-auto">
-            <div class="flex flex-col md:flex-row gap-6">
-                <div class="md:w-2/3">
-                    <h3 class="text-2xl font-bold">About Me</h3>
-                    <p class="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="md:w-1/3 flex items-center justify-center gap-5 text-3xl">
-                    <a href="#" class="text-blue-500"><i class="bi bi-facebook"></i></a>
-                    <a href="#" class="text-green-500"><i class="bi bi-whatsapp"></i></a>
-                    <a href="#" class="text-pink-500"><i class="bi bi-instagram"></i></a>
-                </div>
-            </div>
-            <div class="border-t border-gray-600 mt-6 text-center pt-3">
-                <p class="text-gray-500">@ 2024 Bagus Irawan</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="js/aos.js"></script>
-    <script>
-        AOS.init({
-            once: true,
-            duration: 800
-        });
-    </script>
+  <script src="js/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+      duration: 800
+    });
+  </script>
 </body>
 
 </html>
